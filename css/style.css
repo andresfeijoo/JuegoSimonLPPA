@@ -49,7 +49,7 @@ h1{
   color: rgb(245, 241, 246);
   font-size: 25px; /* Puedes ajustar el tamaño según tus preferencias */  
 }
-.hijo2{
+.Hpartida{
   align-items: center;
   background: rgb(246, 226, 249);
   border-radius: 15% 15% 15% 15%;
@@ -165,7 +165,7 @@ h1{
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   padding: 45px;
 }
-.hijo2{
+.Hpartida{
   display: none;
 }
 @media screen and (max-width:1368px) {

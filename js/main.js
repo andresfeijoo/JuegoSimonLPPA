@@ -130,7 +130,7 @@ function validador(event){
 } 
 //Script para el modal
 var modal = document.getElementById('miModal');
-var historial = document.getElementById('hijo2');
+var historial = document.getElementById('Hpartida');
 var verHistorial = document.getElementById('verHistorial');
 var cerrarModalBtn = document.getElementById('cerrarModalBtn');
 var cerrarHistorial = document.getElementById('cerrarHistorial');
