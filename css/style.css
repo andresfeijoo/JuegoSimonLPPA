@@ -33,7 +33,7 @@ header{
   justify-content: center;
   width: 97%;
 }
-.hijo1{
+.Pjugar{
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -193,7 +193,7 @@ h1{
     justify-content: center;
     width: 97%;
   }
-  .hijo1{
+  .Pjugar{
     align-items: center;
     display: flex;
     flex-direction: column;
