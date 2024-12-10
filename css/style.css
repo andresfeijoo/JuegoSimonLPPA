@@ -23,7 +23,7 @@ header{
 .header .menu a:hover{
    color: #3fff3f;
 }
-.Padre{
+.Tsup{
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -183,7 +183,7 @@ h1{
     margin-right: 5px;
     text-decoration: none;
   }
-  .Padre{
+  .Tsup{
     align-items: center;
     display: flex;
     flex-direction: row;
