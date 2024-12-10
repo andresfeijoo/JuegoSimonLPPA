@@ -108,7 +108,7 @@ function validador(event){
     console.log("no acertaste");
     indiceSecuenciaBtnRandom = 0;
     InicioJuego();
-    title.innerText = puntaje.nombre + " :( vuelve a intentar!!! ";
+    title.innerText = puntaje.nombre + " vuelve a intentar ";
     //ASIGNO EL PUNTAJE OBTENIDO A MI OBJETO PUNTAJES, EL CUAL SE USA PARA EL LOCAL STORAGE
     puntaje.puntos = contPuntos;
     //SETEO EL LOCALSTORAGE
