@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    
+    <div class="padre">
+      <div class="hijo1">
+        <div class="title">
+          <h1 id="title">Presiona Jugar</h1>
+        </div>
+        <div class="formNombre">
+          <form id="formularioNombre">
+            <label for="nombre"><b>Nombre:</b></label>
+            <input type="text" id="nombre" name="nombre" required>
+            <button type="button" onclick="registrar(); guardarNombre()">Registrate</button>
+          </form>
+        </div>
+        <div class="contenedorBtn">
+          <button id="rojo"></button>
+          <button id="verde"></button>
+          <button id="azul"></button>
+          <button id="amarillo"></button>
+        </div>
+        <button class="btnJugar" id="jugar">Jugar</button>
+        <div id="miModal" class="modal">
+          <div class="modal-content">
+            <h2 id="h2Modal"></h2>
+            <p id="pModal"></p>
+            <button id="cerrarModalBtn">Cerrar</button>
+          </div>
+        </div>
+        <button class="btnVerHistorial" id="verHistorial">Historial</button>
+        <button class="btnOcultarHistorial" id="cerrarHistorial">Ocultar Historial</button> 
+      </div>   
+      <div id="hijo2" class="hijo2">
+        <h2>Historial de partidas</h2>      
+        <ul id="miLista"></ul>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    </body>
+</html>
