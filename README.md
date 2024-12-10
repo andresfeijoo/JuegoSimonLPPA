@@ -2,7 +2,7 @@
 
 Descripción
 
-Juego de Simón Dice.. El juego muestra una secuencia de colores y sonidos que el jugador debe repetir para avanzar en el juego.
+Juego de Simón Dice. El juego muestra una secuencia de colores y sonidos que el jugador debe repetir para avanzar en el juego.
 Cada vez que el jugador completa correctamente la secuencia, se agrega un nuevo color a la secuencia, aumentando la dificultad.
 
 Tecnologías Utilizadas
