@@ -1,0 +1,11 @@
+body {
+    align-items: center;
+    background: #707070;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'VT323', monospace;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
