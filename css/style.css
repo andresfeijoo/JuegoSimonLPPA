@@ -94,9 +94,7 @@ h1{
 .btnOcultarHistorial:hover{
   background: #3fff3f;
 }
-.btnContacto:hover{
-  background: #3fff3f;
-}
+
 
 .active {
   border-color: rgb(255, 255, 255);
@@ -226,9 +224,7 @@ h1{
   .btnOcultarHistorial{
     width: 50%;
   }
-  .btnContacto{
-    width: 50%;
-  }
+ 
   .active {
     border-color: rgb(255, 255, 255);
     border-width: 5px;
